@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "pindathom",
-    "slug": "pindathom",
+    "name": "pindathon",
+    "slug": "pindathon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +15,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pindathon"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pindathon"
     },
     "web": {
       "favicon": "./assets/favicon.png"
